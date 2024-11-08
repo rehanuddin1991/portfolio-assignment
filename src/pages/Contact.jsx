@@ -2,7 +2,8 @@ import React from "react";
 import { MdCall } from "react-icons/md";
 import { MdEmail } from "react-icons/md";
 import { FaFacebook } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub,FaLinkedin } from "react-icons/fa";
+ 
 
 const Contact = () => {
   return (
@@ -28,6 +29,16 @@ const Contact = () => {
             <p className="py-2 flex flex-row">
               <FaGithub size={20} /> github.com/rehanuddin1991
             </p>
+            <a
+              href="https://www.linkedin.com/in/rehan-uddin-a87292115/"
+              target="_blank"
+              className="link link-hover "
+            >
+               <div className="flex-row flex ">
+               <FaLinkedin size={30} className="hover:text-blue-400" /> <h1 className="mt-1">Linkedin</h1>
+               </div>
+              
+            </a>
           </div>
           <div className="card bg-base-100 w-full xs:max-w-[19rem] xs:-ml-8 max-w-sm shrink-0 shadow-2xl">
             <form className="card-body">

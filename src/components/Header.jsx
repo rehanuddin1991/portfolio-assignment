@@ -25,15 +25,15 @@ const header = () => {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-        <li><a>Item 1</a></li>
-        <li>
-          <a>Parent</a>
-          <ul className="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
-        </li>
-        <li><a>Item 3</a></li>
+        <NavLink className="hover:text-orange-400" to="/">Home</NavLink>
+       <NavLink className="hover:text-orange-400"  to="/skills">Skills</NavLink>
+       <NavLink className="hover:text-orange-400" to="/project">Project</NavLink>
+       <NavLink className="hover:text-orange-400"  to="write-up" >Write Up</NavLink>
+       <NavLink className="hover:text-orange-400"  to="/gallery">Gallery</NavLink>
+       <NavLink className="hover:text-orange-400"  to="/about">About</NavLink>
+       <NavLink className="hover:text-orange-400"  to="/contact">Contact</NavLink>
+       <NavLink className="hover:text-orange-400"  to="https://drive.google.com/file/d/1fuW0Ht6GlqCwCOjFpEWbQ9bzH3inNxEg/view?usp=sharing">Resume</NavLink>
+     
       </ul>
     </div>
     <NavLink to="/" className=" text-xl xs:text-[0.75rem] ssm:text-[0.9rem] text-[darkcyan] font-bold ">Rehan's Portfolio</NavLink>

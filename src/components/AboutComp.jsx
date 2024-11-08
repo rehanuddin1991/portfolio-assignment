@@ -1,5 +1,8 @@
 import React from 'react'
 import mylogo from '../../public/images/rehan.jpg'
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+
 import { NavLink } from 'react-router-dom'
 const AboutComp = () => {
   return (
@@ -17,11 +20,22 @@ const AboutComp = () => {
     <h2 className="card-title xs:text-[0.89rem]">✅&nbsp;Software Developer</h2>
     <h2 className="card-title xs:text-[0.89rem]">✅&nbsp;First Class Govt. Official</h2>
     <h2 className="card-title xs:text-[0.89rem]">✅&nbsp;Writer</h2>
-    <h2 className="card-title xs:text-[0.89rem]">✅&nbsp;Sportsman</h2>
-    <h2 className="card-title xs:text-[0.89rem]">✅&nbsp;Traveler</h2>
-    <h2 className="card-title xs:text-[0.89rem] text-[blue]">🚀Project-1: 
+    <h2 className="card-title xs:text-[0.89rem]">✅&nbsp;Sportsman & Traveler</h2>
+    <h2 className="card-title xs:text-[0.89rem] text-[midnightblue] flex-row">
+    <FaLinkedin size={36} />
+      <a  href='https://www.linkedin.com/in/rehan-uddin-a87292115/' target='_blank'>
+    Linkedin</a></h2>
+
+    <h2 className="card-title xs:text-[0.89rem] text-[midnightblue] flex-row">
+    <FaGithub size={36} />
+      <a  href='https://github.com/rehanuddin1991' target='_blank'>
+    GitHub</a></h2>
+
+      <h2 className="card-title xs:text-[0.89rem] text-[blue]">🚀Project-1: 
       <a title="Email: admin@gmail.com pass:123456" href='https://binary-planet.netlify.app' target='_blank'>
       Binary Planet🔥</a></h2>
+
+      
     <h2 className="card-title xs:text-[0.89rem] text-[darkcyan]">🚀Project-2: 
       <a   href='https://rehanuddin1991.github.io/food_awesome/' target='_blank'>Food Awesome🔥</a></h2>
     <h2 className="card-title xs:text-[0.89rem] text-[blue]">🚀Project-3: 
