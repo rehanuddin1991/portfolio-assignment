@@ -24,7 +24,7 @@ const OthersSkills = () => {
   >
     <div className=" mx-auto w-48 flex flex-col justify-center items-center gap-1 bg-base-100 shadow-lg font-bold  p-5  rounded-lg">
       <div>
-        <FaGitAlt size={32} />
+        <FaGitAlt className='text-[#D74A34]' size={36} />
       </div>
 
       <h2 className="card-title">Git</h2>
@@ -32,7 +32,7 @@ const OthersSkills = () => {
 
     <div className=" mx-auto w-48 flex flex-col justify-center items-center gap-1 bg-base-100 shadow-lg font-bold  p-5  rounded-lg">
       <div>
-        <FaGithub size={32} />
+        <FaGithub size={36} />
       </div>
 
       <h2 className="card-title">GitHub</h2>
@@ -40,7 +40,7 @@ const OthersSkills = () => {
 
     <div className=" mx-auto w-48 flex flex-col justify-center items-center gap-1 bg-base-100 shadow-lg font-bold  p-5  rounded-lg">
       <div>
-        <FaPinterest size={32} />
+        <FaPinterest size={36} />
       </div>
 
       <h2 className="card-title">Rest API</h2>
@@ -48,7 +48,7 @@ const OthersSkills = () => {
 
     <div className=" mx-auto w-48 flex flex-col justify-center items-center gap-1 bg-base-100 shadow-lg font-bold  p-5  rounded-lg">
       <div>
-        <SiNetlify size={32} />
+        <SiNetlify size={36} />
       </div>
 
       <h2 className="card-title">Netlify(Host)</h2>
@@ -57,7 +57,7 @@ const OthersSkills = () => {
 
     <div className=" mx-auto w-48 flex flex-col justify-center items-center gap-1 bg-base-100 shadow-lg font-bold  p-5  rounded-lg">
       <div>
-        <IoLogoVercel size={32} />
+        <IoLogoVercel size={36} />
       </div>
 
       <h2 className="card-title">Vercel(Host)</h2>
@@ -66,7 +66,7 @@ const OthersSkills = () => {
 
     <div className=" mx-auto w-48 flex flex-col justify-center items-center gap-1 bg-base-100 shadow-lg font-bold  p-5  rounded-lg">
       <div>
-        <SiRender size={32} />
+        <SiRender size={36} />
       </div>
 
       <h2 className="card-title">Render(Host)</h2>
@@ -76,7 +76,7 @@ const OthersSkills = () => {
 
     <div className=" mx-auto w-48 flex flex-col justify-center items-center gap-1 bg-base-100 shadow-lg font-bold  p-5  rounded-lg">
       <div>
-        <SiBisecthosting size={32} />
+        <SiBisecthosting size={36} />
       </div>
 
       <h2 className="card-title">Web Hosting</h2>
@@ -84,7 +84,7 @@ const OthersSkills = () => {
 
     <div className=" mx-auto w-48 flex flex-col justify-center items-center gap-1 bg-base-100 shadow-lg font-bold  p-5  rounded-lg">
       <div>
-        <FaSlack size={32} />   
+        <FaSlack size={36} />   
       </div>
 
       <h2 className="card-title">Slack(Project Management)</h2>
@@ -92,7 +92,7 @@ const OthersSkills = () => {
 
     <div className=" mx-auto w-48 flex flex-col justify-center items-center gap-1 bg-base-100 shadow-lg font-bold  p-5  rounded-lg">
       <div>
-      <DiScrum size={32} /> 
+      <DiScrum size={36} /> 
       </div>
 
       <h2 className="card-title">Scrum(Project Management)</h2>
@@ -100,7 +100,7 @@ const OthersSkills = () => {
 
     <div className=" mx-auto w-48 flex flex-col justify-center items-center gap-1 bg-base-100 shadow-lg font-bold  p-5  rounded-lg">
       <div>
-        <FaDocker  size={32} />
+        <FaDocker  size={36} />
       </div>
 
       <h2 className="card-title">Docker</h2>

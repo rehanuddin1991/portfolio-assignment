@@ -11,7 +11,7 @@ const Contact = () => {
         <div className="hero-content justify-center items-start gap-32  xs:gap-4 ssm:gap-4 flex-col  md:flex-row-reverse sm:flex-row-reverse lg:flex-row-reverse">
           <div className="text-center lg:text-left">
             
-            <p className="py-2 flex flex-row font-bold">Rehan Uddin</p>
+            <p className="py-2 flex flex-row font-bold ">Rehan Uddin</p>
             <p className="py-2 flex flex-row"> Upazila ICT Officer</p>
             <p className="py-2 flex flex-row"> ICT Office, Ramgarh</p>
             <p className="py-2 flex flex-row">
@@ -46,12 +46,9 @@ const Contact = () => {
                 <label className="label">
                   <span className="label-text">Message</span>
                 </label>
-                <input
-                  type="text"
-                  placeholder="message"
-                  className="input input-bordered"
-                  required
-                />
+                 
+                <textarea name="" id="" cols="30"  className="h-20 input input-bordered" rows="10"></textarea>
+
               </div>
               <div className="form-control mt-6">
                 <button className="btn btn-primary">Submit</button>

@@ -16,7 +16,7 @@ const frontend = () => {
   >
     <div className=" mx-auto w-48 flex flex-col justify-center items-center gap-1 bg-base-100 shadow-lg font-bold  p-5  rounded-lg">
       <div>
-        <RiHtml5Fill className='' size={32} />
+        <RiHtml5Fill className='text-[#DD4B24]' size={36} />
       </div>
 
       <h2 className="card-title">HTML</h2>
@@ -24,7 +24,7 @@ const frontend = () => {
 
     <div className=" mx-auto w-48 flex flex-col justify-center items-center gap-1 bg-base-100 shadow-lg font-bold  p-5  rounded-lg">
       <div>
-        <SiCss3 size={32} />
+        <SiCss3 className='text-[#254BDF]' size={36} />
       </div>
 
       <h2 className="card-title">CSS</h2>
@@ -32,7 +32,7 @@ const frontend = () => {
 
     <div className=" mx-auto w-48 flex flex-col justify-center items-center gap-1 bg-base-100 shadow-lg font-bold  p-5  rounded-lg">
       <div>
-        <IoLogoJavascript size={32} />
+        <IoLogoJavascript className='text-[#E8D44D]' size={36} />
       </div>
 
       <h2 className="card-title">Javascript</h2>
@@ -40,7 +40,7 @@ const frontend = () => {
 
     <div className=" mx-auto w-48 flex flex-col justify-center items-center gap-1 bg-base-100 shadow-lg font-bold  p-5  rounded-lg">
       <div>
-        <SiJquery size={32} />
+        <SiJquery className='text-[#1163A4]' size={36} />
       </div>
 
       <h2 className="card-title">Jquery</h2>
@@ -48,7 +48,7 @@ const frontend = () => {
 
     <div className=" mx-auto w-48 flex flex-col justify-center items-center gap-1 bg-base-100 shadow-lg font-bold  p-5  rounded-lg">
       <div>
-        <FaVuejs size={32} />
+        <FaVuejs className='text-[#3FB27F]' size={36} />
       </div>
 
       <h2 className="card-title">Vue</h2>
@@ -56,7 +56,7 @@ const frontend = () => {
 
     <div className=" mx-auto w-48 flex flex-col justify-center items-center gap-1 bg-base-100 shadow-lg font-bold  p-5  rounded-lg">
       <div>
-        <FaReact size={32} />
+        <FaReact className='text-[#61DAFB]' size={36} />
       </div>
 
       <h2 className="card-title">React js</h2>
@@ -64,7 +64,7 @@ const frontend = () => {
 
     <div className=" mx-auto w-48 flex flex-col justify-center items-center gap-1 bg-base-100 shadow-lg font-bold  p-5  rounded-lg">
       <div>
-        <RiNextjsFill size={32} />
+        <RiNextjsFill size={36} />
       </div>
 
       <h2 className="card-title">Next js</h2>
@@ -72,15 +72,15 @@ const frontend = () => {
 
     <div className=" mx-auto w-48 flex flex-col justify-center items-center gap-1 bg-base-100 shadow-lg font-bold  p-5  rounded-lg">
       <div>
-        <RiTailwindCssFill size={32} />
+        <RiTailwindCssFill className='text-[#36B6F2]' size={36} />
       </div>
 
-      <h2 className="card-title">Tailwind</h2>
+      <h2 className="card-title " >Tailwind</h2>
     </div>
 
     <div className=" mx-auto w-48 flex flex-col justify-center items-center gap-1 bg-base-100 shadow-lg font-bold  p-5  rounded-lg">
       <div>
-        <FaBootstrap size={32} />
+        <FaBootstrap size={36} />
       </div>
 
       <h2 className="card-title">Bootstrap</h2>

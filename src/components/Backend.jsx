@@ -15,7 +15,7 @@ const Backend = () => {
   >
     <div className=" mx-auto w-48 flex flex-col justify-center items-center gap-1 bg-base-100 shadow-lg font-bold  p-5  rounded-lg">
       <div>
-        <FaNodeJs size={32} />
+        <FaNodeJs className='text-[#509941]' size={36} />
       </div>
 
       <h2 className="card-title">Node.js</h2>
@@ -23,7 +23,7 @@ const Backend = () => {
 
     <div className=" mx-auto w-48 flex flex-col justify-center items-center gap-1 bg-base-100 shadow-lg font-bold  p-5  rounded-lg">
       <div>
-        <SiExpress size={32} />
+        <SiExpress size={36} />
       </div>
 
       <h2 className="card-title">Express.js</h2>
@@ -31,7 +31,7 @@ const Backend = () => {
 
     <div className=" mx-auto w-48 flex flex-col justify-center items-center gap-1 bg-base-100 shadow-lg font-bold  p-5  rounded-lg">
       <div>
-        <SiPhp size={32} />
+        <SiPhp size={36} />
       </div>
 
       <h2 className="card-title">PHP</h2>
@@ -39,7 +39,7 @@ const Backend = () => {
 
     <div className=" mx-auto w-48 flex flex-col justify-center items-center gap-1 bg-base-100 shadow-lg font-bold  p-5  rounded-lg">
       <div>
-        <SiMongodb size={32} />
+        <SiMongodb className='text-[#419432]' size={36} />
       </div>
 
       <h2 className="card-title">MongoDB</h2>
@@ -47,7 +47,7 @@ const Backend = () => {
 
     <div className=" mx-auto w-48 flex flex-col justify-center items-center gap-1 bg-base-100 shadow-lg font-bold  p-5  rounded-lg">
       <div>
-        <GrMysql size={32} />
+        <GrMysql className='text-[#005C85]' size={36} />
       </div>
 
       <h2 className="card-title">MySQL</h2>
@@ -55,7 +55,7 @@ const Backend = () => {
 
     <div className=" mx-auto w-48 flex flex-col justify-center items-center gap-1 bg-base-100 shadow-lg font-bold  p-5  rounded-lg">
       <div>
-        <SiFirebase size={32} />
+        <SiFirebase className='text-[#F7BE00]' size={36} />
       </div>
 
       <h2 className="card-title">Firebase</h2>

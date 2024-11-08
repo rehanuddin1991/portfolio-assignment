@@ -24,14 +24,15 @@ const HomePage = () => {
     <title>Home Page</title>
 
     </Helmet>
+    <br />
     <Marquee pauseOnHover={true} style={{fontWeight:"600",fontSize:"1.2rem"}}>
   I am a full stack Web Developer. I have sound knowledge both MERN & PHP. I am expert at &nbsp;
-  <FaReact className='' size={32} /> React &nbsp;
+  <FaReact className='text-[#61DAFB]' size={32} /> React &nbsp;
   <RiNextjsFill className='' size={32} /> Next &nbsp;
-  <RiTailwindCssFill className='' size={32} />Tailwind &nbsp;
+  <RiTailwindCssFill className='text-[#36B6F2]' size={32} />Tailwind &nbsp;
   <FaBootstrap className='' size={32} /> Bootstrap &nbsp;
   <SiPhp className='' size={32} />PHP &nbsp;
-  <SiMongodb className='' size={32} />MongoDB &nbsp;
+  <SiMongodb className='text-[#419432]' size={32} />MongoDB &nbsp;
   <GrMysql className='' size={32} /> MySQL &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 </Marquee>
