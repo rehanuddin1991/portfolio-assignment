@@ -7,7 +7,7 @@ const WriteUp = () => {
         আমার লিখা উপন্যাসের চুম্বক অংশ 
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4   justify-center items-center gap-3">
-        <div     className="card bg-base-100 p-4  h-40    mx-auto shadow-2xl ">
+        <div     className="card bg-base-100 p-2  h-48    mx-auto shadow-2xl ">
           <div className="card-body">
             <p className="">
               
@@ -17,7 +17,7 @@ const WriteUp = () => {
         </div>
 
 
-        <div     className="card bg-base-100 p-4  h-40    mx-auto shadow-2xl ">
+        <div     className="card bg-base-100 p-2  h-48    mx-auto shadow-2xl ">
           <div className="card-body">
             <p className="">
               
@@ -27,7 +27,7 @@ const WriteUp = () => {
         </div>
 
 
-        <div     className="card bg-base-100 p-4  h-40    mx-auto shadow-2xl ">
+        <div     className="card bg-base-100 p-2  h-48    mx-auto shadow-2xl ">
           <div className="card-body">
             <p className="">
               
@@ -38,7 +38,7 @@ const WriteUp = () => {
 
 
 
-        <div     className="card bg-base-100 p-4  h-40    mx-auto shadow-2xl ">
+        <div     className="card bg-base-100 p-2  h-48    mx-auto shadow-2xl ">
           <div className="card-body">
             <p className="">
               
@@ -49,7 +49,7 @@ const WriteUp = () => {
 
 
 
-        <div     className="card bg-base-100 p-4  h-40    mx-auto shadow-2xl ">
+        <div     className="card bg-base-100 p-2  h-48    mx-auto shadow-2xl ">
           <div className="card-body">
             <p className="">
               
@@ -60,7 +60,7 @@ const WriteUp = () => {
 
 
 
-        <div     className="card bg-base-100 p-4  h-40    mx-auto shadow-2xl ">
+        <div     className="card bg-base-100 p-2  h-48    mx-auto shadow-2xl ">
           <div className="card-body">
             <p className="">
               
@@ -71,7 +71,7 @@ const WriteUp = () => {
 
 
 
-        <div     className="card bg-base-100 p-4  h-40    mx-auto shadow-2xl ">
+        <div     className="card bg-base-100 p-2  h-48    mx-auto shadow-2xl ">
           <div className="card-body">
             <p className="">
               
@@ -82,7 +82,7 @@ const WriteUp = () => {
 
 
 
-        <div     className="card bg-base-100 p-4  h-40    mx-auto shadow-2xl ">
+        <div     className="card bg-base-100 p-2  h-48    mx-auto shadow-2xl ">
           <div className="card-body">
             <p className="">
               
@@ -92,7 +92,7 @@ const WriteUp = () => {
         </div>
 
 
-        <div     className="card bg-base-100 p-4  h-40    mx-auto shadow-2xl ">
+        <div     className="card bg-base-100 p-2  h-48    mx-auto shadow-2xl ">
           <div className="card-body">
             <p className="">
               
@@ -101,16 +101,16 @@ const WriteUp = () => {
           </div>
         </div>
 
-        <div     className="card bg-base-100 p-4  h-40      mx-auto shadow-2xl ">
+        <div     className="card bg-base-100 p-2  h-48      mx-auto shadow-2xl ">
           <div className="card-body">
             <p className="">
               
-            কথার ফাগুনে যদি ধরে লয়,তারেই কি বলে মহাপ্রলয়?🖤 ~রেহান
+            কথার ফাগুনে যদি ধরে লয় <br /> তারেই কি বলে মহাপ্রলয়?🖤 ~রেহান
             </p>
           </div>
         </div>
 
-        <div     className="card bg-base-100 p-4  h-40    mx-auto shadow-2xl ">
+        <div     className="card bg-base-100 p-2  h-48    mx-auto shadow-2xl ">
           <div className="card-body">
             <p className="">
               
@@ -120,7 +120,7 @@ const WriteUp = () => {
         </div>
 
 
-        <div     className="card bg-base-100 p-4  h-40    mx-auto shadow-2xl ">
+        <div     className="card bg-base-100 p-2  h-48    mx-auto shadow-2xl ">
           <div className="card-body">
             <p className="">
               
