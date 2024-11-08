@@ -7,18 +7,17 @@ const WriteUp = () => {
         আমার লিখা উপন্যাসের চুম্বক অংশ 
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4   justify-center items-center gap-3">
-        <div     className="card bg-base-100    mx-auto shadow-xl ">
+        <div     className="card bg-base-100 p-4  h-40    mx-auto shadow-2xl ">
           <div className="card-body">
             <p className="">
               
-              মুক্তির পথ ধরে মহাপ্রয়াণ নাকি মহাপ্রয়াণেই মুক্তি? জ্যোৎস্নার
-              নিষুতিতে অনন্তে ভাসুক তরী। যে পথ সুন্দর তা অন্তহীন!🤍 ~রেহান
+              মুক্তির পথ ধরে মহাপ্রয়াণ নাকি মহাপ্রয়াণেই মুক্তি? 🤍 ~রেহান
             </p>
           </div>
         </div>
 
 
-        <div     className="card bg-base-100    mx-auto shadow-xl ">
+        <div     className="card bg-base-100 p-4  h-40    mx-auto shadow-2xl ">
           <div className="card-body">
             <p className="">
               
@@ -28,7 +27,7 @@ const WriteUp = () => {
         </div>
 
 
-        <div     className="card bg-base-100    mx-auto shadow-xl ">
+        <div     className="card bg-base-100 p-4  h-40    mx-auto shadow-2xl ">
           <div className="card-body">
             <p className="">
               
@@ -39,7 +38,7 @@ const WriteUp = () => {
 
 
 
-        <div     className="card bg-base-100    mx-auto shadow-xl ">
+        <div     className="card bg-base-100 p-4  h-40    mx-auto shadow-2xl ">
           <div className="card-body">
             <p className="">
               
@@ -50,7 +49,7 @@ const WriteUp = () => {
 
 
 
-        <div     className="card bg-base-100    mx-auto shadow-xl ">
+        <div     className="card bg-base-100 p-4  h-40    mx-auto shadow-2xl ">
           <div className="card-body">
             <p className="">
               
@@ -61,7 +60,7 @@ const WriteUp = () => {
 
 
 
-        <div     className="card bg-base-100    mx-auto shadow-xl ">
+        <div     className="card bg-base-100 p-4  h-40    mx-auto shadow-2xl ">
           <div className="card-body">
             <p className="">
               
@@ -72,7 +71,7 @@ const WriteUp = () => {
 
 
 
-        <div     className="card bg-base-100    mx-auto shadow-xl ">
+        <div     className="card bg-base-100 p-4  h-40    mx-auto shadow-2xl ">
           <div className="card-body">
             <p className="">
               
@@ -83,7 +82,7 @@ const WriteUp = () => {
 
 
 
-        <div     className="card bg-base-100    mx-auto shadow-xl ">
+        <div     className="card bg-base-100 p-4  h-40    mx-auto shadow-2xl ">
           <div className="card-body">
             <p className="">
               
@@ -93,7 +92,7 @@ const WriteUp = () => {
         </div>
 
 
-        <div     className="card bg-base-100    mx-auto shadow-xl ">
+        <div     className="card bg-base-100 p-4  h-40    mx-auto shadow-2xl ">
           <div className="card-body">
             <p className="">
               
@@ -102,7 +101,36 @@ const WriteUp = () => {
           </div>
         </div>
 
+        <div     className="card bg-base-100 p-4  h-40      mx-auto shadow-2xl ">
+          <div className="card-body">
+            <p className="">
+              
+            কথার ফাগুনে যদি ধরে লয়,তারেই কি বলে মহাপ্রলয়?🖤 ~রেহান
+            </p>
+          </div>
+        </div>
 
+        <div     className="card bg-base-100 p-4  h-40    mx-auto shadow-2xl ">
+          <div className="card-body">
+            <p className="">
+              
+            যে আঁধার জ্যোৎস্নার হাতছানি, তা নয়তো আঁধার—তা আলোর ঝলকানি।!🖤 ~রেহান
+            </p>
+          </div>
+        </div>
+
+
+        <div     className="card bg-base-100 p-4  h-40    mx-auto shadow-2xl ">
+          <div className="card-body">
+            <p className="">
+              
+            জ্যোৎস্নার
+        নিষুতিতে অনন্তে ভাসুক তরী।সুন্দর পথ অন্তহীন!🖤 ~রেহান
+            </p>
+          </div>
+        </div>
+
+        
       </div>
     </>
   );

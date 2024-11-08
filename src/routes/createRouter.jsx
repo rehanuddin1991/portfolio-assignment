@@ -7,8 +7,10 @@ import RootLayout from "../layout/RootLayout";
 import HomePage from "../pages/HomePage";
 import Skills from "../components/Skills";
 import WriteUp from "../components/WriteUp";
+import Project from "../components/Project";
 import About from "../pages/About";
 import Contact from "../pages/Contact";
+import Gallery from "../components/Gallery";
 // import Course from '../pages/Course';
 // import FAQ from '../components/FAQ';
 // import CourseDetailsPage from '../pages/CourseDetailsPage';
@@ -43,6 +45,16 @@ const router = createBrowserRouter([
       {
         path: `${ROUTES.CONTACT}`,
         element: <Contact />,
+      },
+
+      {
+        path: `${ROUTES.PROJECT}`,
+        element:  <Project />,
+      },
+
+      {
+        path: `${ROUTES.GALLERY}`,
+        element: <Gallery />,
       },
       // {
       //   path: "*",
