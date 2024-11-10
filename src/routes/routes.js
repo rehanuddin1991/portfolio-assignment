@@ -10,6 +10,7 @@ export const ROUTES = {
     PROJECTS: "/projects",
     CONTACT: "/contact",
     GALLERY: "/gallery",
+    LINKS: "/links",
      
     
   };

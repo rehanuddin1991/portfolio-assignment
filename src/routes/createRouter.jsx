@@ -11,6 +11,8 @@ import Project from "../components/Project";
 import About from "../pages/About";
 import Contact from "../pages/Contact";
 import Gallery from "../components/Gallery";
+import LinkComp from "../components/LinkComp";
+import NoPageFound from "../components/NoPageFound";
 // import Course from '../pages/Course';
 // import FAQ from '../components/FAQ';
 // import CourseDetailsPage from '../pages/CourseDetailsPage';
@@ -56,14 +58,14 @@ const router = createBrowserRouter([
         path: `${ROUTES.GALLERY}`,
         element: <Gallery />,
       },
-      // {
-      //   path: "*",
-      //   element: <NoPageFound />,
-      // },
-      // {
-      //   path: `${ROUTES.SKILLS}`,
-      //   element: <Course />,
-      // }
+      {
+        path: "*",
+        element: <NoPageFound />,
+      },
+      {
+        path: `${ROUTES.LINKS}`,
+         element: <LinkComp />,
+       }
 
       // ,
       // {

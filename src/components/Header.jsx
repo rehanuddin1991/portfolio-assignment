@@ -1,5 +1,8 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import { PiLinkSimpleFill } from "react-icons/pi";
+import { IoMdContact } from "react-icons/io";
+
 import Rehan_Resume from '../../public/Rehan_Resume.pdf'
 const header = () => {
   return (
@@ -31,22 +34,28 @@ const header = () => {
        <NavLink className="hover:text-orange-400 py-2"  to="write-up" >Write Up</NavLink>
        <NavLink className="hover:text-orange-400 py-2"  to="/gallery">Gallery</NavLink>
        <NavLink className="hover:text-orange-400 py-2"  to="/about">About</NavLink>
-       <NavLink className="hover:text-orange-400 py-2"  to="/contact">Contact</NavLink>
-       <a download  className="hover:text-orange-400"   href={Rehan_Resume}>Resume</a>
+       <NavLink className="hover:text-orange-400" py-2  to="/contact"><IoMdContact size={32}/>      </NavLink>
+       <NavLink className="hover:text-orange-400" py-2 to="/links"><PiLinkSimpleFill size={32} />
+       </NavLink>
+       <a download  className="hover:text-orange-400" py-2  href={Rehan_Resume}>Resume</a>
      
       </ul>
     </div>
-    <NavLink to="/" className=" text-xl xs:text-[0.75rem] ssm:text-[0.9rem] text-[darkcyan] font-bold ">Rehan's Portfolio</NavLink>
+    <NavLink to="/" className=" text-xl xs:text-[0.75rem] md:text-[1rem] ssm:text-[0.9rem] text-[darkcyan]
+     font-bold ">Rehan's Portfolio</NavLink>
   </div>
   <div className="navbar-center hidden md:flex sm:flex lg:flex">
-    <ul className="menu menu-horizontal px-1 flex gap-7 justify-center items-center font-bold">
+    <ul className="menu menu-horizontal px-1   flex gap-7  justify-center items-center font-bold md:font-semibold">
        <NavLink className="hover:text-orange-400" to="/">Home</NavLink>
        <NavLink className="hover:text-orange-400"  to="/skills">Skills</NavLink>
        <NavLink className="hover:text-orange-400" to="/project">Project</NavLink>
        <NavLink className="hover:text-orange-400"  to="write-up" >Write Up</NavLink>
        <NavLink className="hover:text-orange-400"  to="/gallery">Gallery</NavLink>
        <NavLink className="hover:text-orange-400"  to="/about">About</NavLink>
-       <NavLink className="hover:text-orange-400"  to="/contact">Contact</NavLink>
+       <NavLink className="hover:text-orange-400" title='Contact'  to="/contact"><IoMdContact size={32}/>      </NavLink>
+       <NavLink className="hover:text-orange-400" title="all links"  to="/links"><PiLinkSimpleFill size={32} />
+       </NavLink>
+       
        <a download  className="hover:text-orange-400"   href={Rehan_Resume}>Resume</a>
         
     </ul>
