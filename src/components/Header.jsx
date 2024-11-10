@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-
+import Rehan_Resume from '../../public/Rehan_Resume.pdf'
 const header = () => {
   return (
     <>
@@ -32,7 +32,7 @@ const header = () => {
        <NavLink className="hover:text-orange-400 py-2"  to="/gallery">Gallery</NavLink>
        <NavLink className="hover:text-orange-400 py-2"  to="/about">About</NavLink>
        <NavLink className="hover:text-orange-400 py-2"  to="/contact">Contact</NavLink>
-       <NavLink className="hover:text-orange-400 py-2"  to="https://drive.google.com/file/d/1fuW0Ht6GlqCwCOjFpEWbQ9bzH3inNxEg/view?usp=sharing">Resume</NavLink>
+       <a download  className="hover:text-orange-400"   href={Rehan_Resume}>Resume</a>
      
       </ul>
     </div>
@@ -47,7 +47,7 @@ const header = () => {
        <NavLink className="hover:text-orange-400"  to="/gallery">Gallery</NavLink>
        <NavLink className="hover:text-orange-400"  to="/about">About</NavLink>
        <NavLink className="hover:text-orange-400"  to="/contact">Contact</NavLink>
-       <NavLink className="hover:text-orange-400"  to="https://drive.google.com/file/d/1fuW0Ht6GlqCwCOjFpEWbQ9bzH3inNxEg/view?usp=sharing">Resume</NavLink>
+       <a download  className="hover:text-orange-400"   href={Rehan_Resume}>Resume</a>
         
     </ul>
   </div>
