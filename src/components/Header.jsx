@@ -55,7 +55,7 @@ const header = () => {
        <NavLink className="hover:text-orange-400 md:text-xs"  to="write-up" >Write Up</NavLink>
        <NavLink className="hover:text-orange-400 md:text-xs"  to="/gallery">Gallery</NavLink>
        <NavLink className="hover:text-orange-400 md:text-xs"  to="/about">About</NavLink>
-       <NavLink className="hover:text-orange-400 md:text-xs" title="Education"  to="/education"><MdCastForEducation size={32} /></NavLink>
+       <NavLink className="hover:text-orange-400 md:text-xs" title="Education & Experience"  to="/education"><MdCastForEducation size={32} /></NavLink>
 
        <NavLink className="hover:text-orange-400 md:text-xs" title='Contact'  to="/contact"><IoMdContact size={32}/>      </NavLink>
        <NavLink className="hover:text-orange-400 md:text-xs" title="all links"  to="/links"><PiLinkSimpleFill size={32} />

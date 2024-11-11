@@ -5,6 +5,7 @@ import Skills from '../components/Skills'
 import Project from '../components/Project'
 
 import MarqueeComp from '../components/MarqueeComp'
+ 
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
     </Helmet>
     <br />
     <MarqueeComp/>
+     
     <AboutComp/>
     <Project/>
     <Skills/>
