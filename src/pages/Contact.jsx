@@ -17,7 +17,7 @@ const Contact = () => {
     <div>
       <MarqueeComp/>
       <div className="hero    bg-base-100 mt-14  p-2 ">
-        <div className="hero-content justify-center items-start gap-32  xs:gap-4 ssm:gap-4 flex-col  md:flex-row-reverse sm:flex-row-reverse lg:flex-row-reverse">
+        <div className="hero-content justify-center items-start gap-32 md:gap-16  xs:gap-4 ssm:gap-4 flex-col  md:flex-row-reverse sm:flex-row-reverse lg:flex-row-reverse">
           <div className="text-center xs:-ml-8 lg:text-left">
             
             <p className="py-2 flex flex-row font-bold ">Rehan Uddin</p>

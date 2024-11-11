@@ -11,6 +11,7 @@ export const ROUTES = {
     CONTACT: "/contact",
     GALLERY: "/gallery",
     LINKS: "/links",
+    EDUCATION: "/education",
      
     
   };

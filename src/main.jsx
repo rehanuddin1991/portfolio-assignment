@@ -6,6 +6,7 @@ import App from './App.jsx'
 import { RouterProvider } from 'react-router-dom'
 import router from "./routes/createRouter.jsx";
 import { Toaster } from 'react-hot-toast';
+import '@fontsource/poppins';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

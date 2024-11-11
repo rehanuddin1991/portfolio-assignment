@@ -11,9 +11,9 @@ const MarqueeComp = () => {
     <>
       <Marquee
         pauseOnHover={true}
-        style={{ fontWeight: "600", fontSize: "1.2rem" }}
+        style={{ fontWeight: "500", fontSize: "1.2rem" }}
       >
-        I am a full stack Web Developer. I have sound knowledge both MERN & PHP.
+        "Are you looking for aesthetic web applications?". I am a full stack Web Developer. I have sound knowledge both MERN & PHP.
         I am expert at &nbsp;
         <FaReact className="text-[#61DAFB]" size={32} /> React &nbsp;
         <RiNextjsFill className="" size={32} /> Next &nbsp;

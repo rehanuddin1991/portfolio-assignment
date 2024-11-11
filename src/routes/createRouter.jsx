@@ -13,6 +13,7 @@ import Contact from "../pages/Contact";
 import Gallery from "../components/Gallery";
 import LinkComp from "../components/LinkComp";
 import NoPageFound from "../components/NoPageFound";
+import Education from "../components/Education";
 // import Course from '../pages/Course';
 // import FAQ from '../components/FAQ';
 // import CourseDetailsPage from '../pages/CourseDetailsPage';
@@ -65,33 +66,13 @@ const router = createBrowserRouter([
       {
         path: `${ROUTES.LINKS}`,
          element: <LinkComp />,
-       }
+       },
 
-      // ,
-      // {
-      //   path: `${ROUTES.LOGIN}`,
-      //   element: <LoginPage />,
-      // }
+       {
+        path: `${ROUTES.EDUCATION}`,
+         element: <Education />,
+       },
 
-      // ,
-      // {
-      //   path: `${ROUTES.REGISTER}`,
-      //   element: <RegisterPage />,
-      // }
-
-      // ,
-
-      // {
-      //   path: `${ROUTES.FAQ}`,
-      //   element: <FAQ />,
-      // }
-
-      // ,
-
-      // {
-      //   path: "/course/:courseId",
-      //   element: <CourseDetailsPage />,
-      // },
     ],
   },
 ]);

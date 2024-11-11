@@ -9,7 +9,7 @@ import MarqueeComp from "./MarqueeComp";
 const Skills = () => {
   return (
     <>
-    <MarqueeComp/>
+     
       <div>
          
         <h1 className=" text-[lightseagreen] m-3 mt-10 mb-7 text-center font-bold text-2xl xs:text-[0.8rem] ssm:text-[0.8rem] ">

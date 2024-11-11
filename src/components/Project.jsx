@@ -10,7 +10,8 @@ const Project = () => {
   justify-center items-center gap-3 mt-10  "
     >
       <div
-        className=" mx-auto xs:w-[19rem] xs:-ml-11 flex flex-col justify-center  items-start gap-1 bg-base-100 shadow-lg font-bold  p-2
+        className=" mx-auto xs:w-[19rem] xs:-ml-11 flex flex-col justify-center  items-start 
+        gap-1 bg-base-100 shadow-lg font-bold  p-2
       rounded-lg"
       >
         <div>
@@ -199,15 +200,7 @@ const Project = () => {
 
         <p>Others</p>
 
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+         
 
         {/* Open the modal using document.getElementById('ID').showModal() method */}
         <button
