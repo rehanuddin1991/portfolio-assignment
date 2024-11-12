@@ -45,25 +45,25 @@ const AboutComp = () => {
     <h2 ref={el=>bioRef6=el} className="card-title md:text-[1rem] ssm:text-[0.89rem] xs:text-[0.89rem]">✅&nbsp;Sportsman & Traveler</h2>
     <h2  className="card-title md:text-[1rem] ssm:text-[0.89rem] xs:text-[0.89rem] text-[midnightblue] flex-row">
     <FaLinkedin size={36} />
-      <a  href='https://www.linkedin.com/in/rehan-uddin-a87292115/' target='_blank'>
-    Linkedin</a></h2>
+      <NavLink  to='https://www.linkedin.com/in/rehan-uddin-a87292115/' target='_blank'>
+    Linkedin</NavLink></h2>
 
     <h2 className="card-title md:text-[1rem] ssm:text-[0.89rem] xs:text-[0.89rem] text-[midnightblue] flex-row">
     <FaGithub size={36} />
-      <a  href='https://github.com/rehanuddin1991' target='_blank'>
-    GitHub</a></h2>
+      <NavLink  to='https://github.com/rehanuddin1991' target='_blank'>
+    GitHub</NavLink></h2>
 
       <h2 className="md:text-[1rem] card-title ssm:text-[0.89rem] xs:text-[0.89rem] text-[blue]">🚀Project-1: 
-      <a title="Email: admin@gmail.com pass:123456" href='https://binary-planet.netlify.app' target='_blank'>
-      Binary Planet🔥</a></h2>
+      <NavLink title="Email: admin@gmail.com pass:123456" to='https://binary-planet.netlify.app' target='_blank'>
+      Binary Planet🔥</NavLink></h2>
 
       
     <h2 className="md:text-[1rem] card-title ssm:text-[0.89rem] xs:text-[0.89rem] text-[darkcyan]">🚀Project-2: 
-      <a   href='https://rehanuddin1991.github.io/food_awesome/' target='_blank'>Food Awesome</a></h2>
+      <NavLink   to='https://rehanuddin1991.github.io/food_awesome/' target='_blank'>Food Awesome</NavLink></h2>
     <h2 className="md:text-[1rem] card-title ssm:text-[0.89rem] xs:text-[0.89rem] text-[blue]">🚀Project-3: 
-      <a   href='https://books-heaven.netlify.app/' target='_blank'>Book's Heaven</a></h2>
+      <NavLink   to='https://books-heaven.netlify.app/' target='_blank'>Book's Heaven</NavLink></h2>
     <h2 className="md:text-[1rem] card-title ssm:text-[0.89rem] xs:text-[0.89rem] text-[midnightblue]">🚀Project-4:
-       <a  href='https://bindu-theke-sindhu.netlify.app/' target='_blank'>Bindu Theke Sindhu</a></h2>
+       <NavLink  to='https://bindu-theke-sindhu.netlify.app/' target='_blank'>Bindu Theke Sindhu</NavLink></h2>
      
      
     <div className="md:text-[1rem] card-actions justify-center   ">

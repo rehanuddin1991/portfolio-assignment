@@ -1,4 +1,6 @@
-import React from "react";
+ 
+ 
+
 import one from "../../public/images/1.jpg";
 import two from "../../public/images/2.jpg";
 import three from "../../public/images/3.jpg";
@@ -17,6 +19,12 @@ import fifteen from "../../public/images/15.jpg";
 import sixteen from "../../public/images/16.jpg";
 import seventeen from "../../public/images/17.jpg";
 const Gallery = () => {
+
+   
+   
+   
+
+  
  
   return (
     <div
@@ -24,10 +32,11 @@ const Gallery = () => {
   justify-center items-center gap-3 xs:-ml-14 text-center "
     >
 
-<div className=" mx-auto w-80 h-72 flex flex-col justify-center items-center gap-1
+<div className="relative z-10 mx-auto w-80 h-72 flex flex-col justify-center items-center gap-1
        bg-base-100 shadow-2xl font-bold  p-5  rounded-lg">
         <figure>
-          <img src={one} alt="Trulli" className="w-80 h-56 rounded-lg shadow-lg " />
+          <img  
+           src={one} alt="Trulli" className="w-80 h-56 rounded-lg shadow-lg " />
           <figcaption className="font-semibold mt-1" >Election Duty as a Presiding Officer(Patachara)</figcaption>
         </figure>          
       </div>
@@ -36,7 +45,7 @@ const Gallery = () => {
       <div className=" mx-auto w-80 h-72 flex flex-col justify-center items-center gap-1
        bg-base-100 shadow-2xl font-bold  p-5  rounded-lg">
         <figure>
-          <img src={two} alt="Trulli" className="w-80 h-56 rounded-lg shadow-lg " />
+          <img   src={two} alt="Trulli" className="w-80 h-56 rounded-lg shadow-lg " />
           <figcaption className="font-semibold mt-1" >Election Duty as a Presiding Officer(Talmonipara)</figcaption>
         </figure>          
       </div>

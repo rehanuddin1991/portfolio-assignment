@@ -3,6 +3,7 @@ import binary_project from "../../public/images/project_images/binary.png";
 import food_awesome from "../../public/images/project_images/food_awesome.png";
 import book_heaven from "../../public/images/project_images/book_heaven.png";
 import bindu_theke_sindhu from "../../public/images/project_images/bindu-theke-sindhu.png";
+import { NavLink } from "react-router-dom";
 const Project = () => {
   return (
     <div
@@ -19,27 +20,27 @@ const Project = () => {
         </div>
 
         <p className=" ">Binary Planet Ltd.</p>
-        <a
+        <NavLink
           className="text-[blue]"
-          href="https://binary-planet.netlify.app"
+          to="https://binary-planet.netlify.app"
           target="_blank"
         >
           Live URL
-        </a>
-        <a
+        </NavLink>
+        <NavLink
           className="text-[blue]"
-          href="https://github.com/rehanuddin1991/binary-planet-client.git"
+          to="https://github.com/rehanuddin1991/binary-planet-client.git"
           target="_blank"
         >
           GitHub URL
-        </a>
-        <a
+        </NavLink>
+        <NavLink
           className="text-[blue]"
-          href="https://github.com/rehanuddin1991/binary-planet-backend.git"
+          to="https://github.com/rehanuddin1991/binary-planet-backend.git"
           target="_blank"
         >
           GitHub URL Backend
-        </a>
+        </NavLink>
 
         <p>Admin User: admin@gmail.com</p>
         <p>Admin Pass: 123456</p>
@@ -106,28 +107,28 @@ const Project = () => {
         </div>
 
         <p className=" ">Food Awesome Ltd.</p>
-        <a
+        <NavLink
           className="text-[blue]"
-          href="https://rehanuddin1991.github.io/food_awesome/"
+          to="https://rehanuddin1991.github.io/food_awesome/"
           target="_blank"
         >
           Live URL
-        </a>
-        <a
+        </NavLink>
+        <NavLink
           className="text-[blue]"
-          href="https://github.com/rehanuddin1991/food_awesome"
+          to="https://github.com/rehanuddin1991/food_awesome"
           target="_blank"
         >
           GitHub URL
-        </a>
+        </NavLink>
 
-        <a
+        <NavLink
           className="text-[blue]"
-          href="https://www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata"
+          to="https://www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata"
           target="_blank"
         >
           API
-        </a>
+        </NavLink>
 
         <p>Others</p>
 
@@ -181,20 +182,20 @@ const Project = () => {
         </div>
 
         <p className=" ">Book's Heaven Ltd.</p>
-        <a
+        <NavLink
           className="text-[blue]"
-          href="https://books-heaven.netlify.app/"
+          to="https://books-heaven.netlify.app/"
           target="_blank"
         >
           Live URL
-        </a>
-        <a
+        </NavLink>
+        <NavLink
           className="text-[blue]"
-          href="https://github.com/rehanuddin1991/books_heaven_project.git"
+          to="https://github.com/rehanuddin1991/books_heaven_project.git"
           target="_blank"
         >
           GitHub URL
-        </a>
+        </NavLink>
 
         <p>API</p>
 
@@ -254,35 +255,35 @@ const Project = () => {
         </div>
 
         <p className=" ">Bindu Theke Sindhu</p>
-        <a
+        <NavLink
           className="text-[blue]"
-          href="https://bindu-theke-sindhu.netlify.app/"
+          to="https://bindu-theke-sindhu.netlify.app/"
           target="_blank"
         >
           Live URL
-        </a>
-        <a
+        </NavLink>
+        <NavLink
           className="text-[blue]"
-          href="https://github.com/rehanuddin1991/bindu-theke-sindhu.git"
+          to="https://github.com/rehanuddin1991/bindu-theke-sindhu.git"
           target="_blank"
         >
           GitHub URL
-        </a>
+        </NavLink>
 
-        <a
+        <NavLink
           className="text-[blue]"
-          href=" https://bindu-backend.vercel.app/course"
+          to=" https://bindu-backend.vercel.app/course"
           target="_blank"
         >
           Backend URL
-        </a>
-        <a
+        </NavLink>
+        <NavLink
           className="text-[blue]"
-          href="https://github.com/rehanuddin1991/backend_express_server.git"
+          to="https://github.com/rehanuddin1991/backend_express_server.git"
           target="_blank"
         >
           GitHub Backend URL
-        </a>
+        </NavLink>
 
         {/* Open the modal using document.getElementById('ID').showModal() method */}
         <button
