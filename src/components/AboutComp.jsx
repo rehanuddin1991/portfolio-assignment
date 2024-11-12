@@ -19,12 +19,12 @@ const AboutComp = () => {
         gsap.fromTo(slideRef, { scale: 0 }, { scale: 1, duration: 2 });
         
       
-        gsap.fromTo(bioRef, { rotation: 0 }, { rotation: 360, duration: 1 });
-        gsap.fromTo(bioRef2, { rotation: 0 }, { rotation: 360, duration: 1 });
-        gsap.fromTo(bioRef3, { rotation: 0 }, { rotation: 360, duration: 3 });
-        gsap.fromTo(bioRef4, { rotation: 0 }, { rotation: 360, duration: 3 });
-        gsap.fromTo(bioRef5, { rotation: 0 }, { rotation: 360, duration: 4 });
-        gsap.fromTo(bioRef6, { rotation: 0 }, { rotation: 360, duration: 4 });
+        gsap.fromTo(bioRef, { rotation: 180 }, { rotation: 360, duration: 1 });
+        gsap.fromTo(bioRef2, { rotation: 180 }, { rotation: 360, duration: 1 });
+        gsap.fromTo(bioRef3, { rotation: 180 }, { rotation: 360, duration: 2 });
+        gsap.fromTo(bioRef4, { rotation: 180 }, { rotation: 360, duration: 2 });
+        gsap.fromTo(bioRef5, { rotation: 180 }, { rotation: 360, duration: 3 });
+        gsap.fromTo(bioRef6, { rotation: 180 }, { rotation: 360, duration: 3 });
 
     }, []);
   return (
@@ -38,7 +38,7 @@ const AboutComp = () => {
   </figure>
   <div className="card-body xs:-ml-7  ">
     <h2 ref={el=>bioRef=el}  className="card-title  md:text-[1rem] ssm:text-[0.89rem] xs:text-[0.89rem]">✅&nbsp;Full Stack Developer </h2>
-    <h2 ref={el=>bioRef2=el}  className="card-title md:text-[1rem] ssm:text-[0.89rem] xs:text-[0.89rem]">✅&nbsp;Mern & PHP/Mysql</h2>
+    <h2 ref={el=>bioRef2=el}  className="card-title md:text-[1rem] ssm:text-[0.89rem] xs:text-[0.89rem]">✅&nbsp;MERN & PHP/MySQL</h2>
     <h2 ref={el=>bioRef3=el} className="card-title md:text-[1rem] ssm:text-[0.89rem] xs:text-[0.89rem]">✅&nbsp;Software Developer</h2>
     <h2 ref={el=>bioRef4=el} className="card-title md:text-[1rem]  ssm:text-[0.89rem] xs:text-[0.89rem]">✅&nbsp;First Class Govt. Official</h2>
     <h2 ref={el=>bioRef5=el} className="card-title md:text-[1rem] ssm:text-[0.89rem] xs:text-[0.89rem]">✅&nbsp;Writer</h2>

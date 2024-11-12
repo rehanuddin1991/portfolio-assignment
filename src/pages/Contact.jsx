@@ -5,6 +5,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaGithub,FaLinkedin } from "react-icons/fa";
 import toast from "react-hot-toast";
 import MarqueeComp from "../components/MarqueeComp";
+import { Helmet } from "react-helmet-async";
  
 
 const Contact = () => {
@@ -15,10 +16,15 @@ const Contact = () => {
   }
   return (
     <div>
+      <Helmet>
+    <title>Contact Us</title>
+
+    </Helmet>
       <MarqueeComp/>
-      <div className="hero    bg-base-100 mt-14  p-2 ">
-        <div className="hero-content justify-center items-start gap-32 md:gap-16  xs:gap-4 ssm:gap-4 flex-col  md:flex-row-reverse sm:flex-row-reverse lg:flex-row-reverse">
-          <div className="text-center xs:-ml-8 lg:text-left">
+      <div className="hero    bg-base-100 mt-14  p-1 ">
+        <div className="hero-content justify-center items-start gap-32 md:gap-16  xs:gap-4 ssm:gap-4
+         flex-col  md:flex-row-reverse sm:flex-row-reverse lg:flex-row-reverse">
+          <div className=" text-center xs:-ml-8 lg:text-left">
             
             <p className="py-2 flex flex-row font-bold ">Rehan Uddin</p>
             <p className="py-2 flex flex-row"> Upazila ICT Officer</p>
@@ -30,11 +36,11 @@ const Contact = () => {
               <MdEmail size={20} />
               rehan.doict@gmail.com
             </p>
-            <p className="py-2 flex flex-row">
+            <p className="py-2 flex flex-row xs:text-[0.85rem] ssm:text-[0.9rem]">
               <FaFacebook size={20} />
-              facebook.com/rehanuddin1991
+              facebooks.com/rehanuddin1991
             </p>
-            <p className="py-2 flex flex-row">
+            <p className="py-2 flex flex-row xs:text-[0.85rem] ssm:text-[0.9rem]">
               <FaGithub size={20} /> github.com/rehanuddin1991
             </p>
             <a
@@ -48,7 +54,7 @@ const Contact = () => {
               
             </a>
           </div>
-          <div className="card bg-base-100 w-full xs:max-w-[19rem] xs:-ml-12 ssm:-ml-6 max-w-sm shrink-0 shadow-2xl">
+          <div className="card bg-base-100 w-full xs:max-w-[19rem] xs:-ml-12 ssm:-ml-8 max-w-sm shrink-0 shadow-2xl">
             <form className="card-body" onSubmit={formSubmit}>
               <div className="form-control">
                 <label className="label">

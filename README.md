@@ -1,8 +1,11 @@
-# React + Vite
+Project Name: Rehan's Portfolio <br/>
+Live URL: https://rehanuddin-portfolio.netlify.app  <br/>
+Used Technologies: <br/>
+1. React <br/>
+2. Tailwind <br/>
+3. HTML5 <br/>
+4. CSS3 <br/>
+5. Javascript (ES6) <br/>
+6. Daisy UI <br/>
+7. GSAP Animation <br/>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

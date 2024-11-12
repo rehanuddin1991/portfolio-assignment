@@ -5,10 +5,13 @@ import { SiPhp } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import { SiFirebase } from "react-icons/si";
+import { GrOracle } from "react-icons/gr";
+import { PiFileSql } from "react-icons/pi";
+
 import { gsap } from "gsap";
  
 const Backend = () => {
-  let slideRef1 ,slideRef2,slideRef3,slideRef4,slideRef5,slideRef6=useRef();
+  let slideRef1 ,slideRef2,slideRef3,slideRef4,slideRef5,slideRef6,slideRefOracle,slideRefSql=useRef();
 
   useEffect(() => {
     
@@ -18,6 +21,8 @@ const Backend = () => {
     gsap.fromTo(slideRef4, { x: -100 }, { x: 0, duration: 5 });
     gsap.fromTo(slideRef5, { x: -200 }, { x: 0, duration: 5 });
     gsap.fromTo(slideRef6, { x: -200 }, { x: 0, duration: 5 });
+    gsap.fromTo(slideRefOracle, { x: -200 }, { x: 0, duration: 5 });
+    gsap.fromTo(slideRefSql, { x: -200 }, { x: 0, duration: 5 });
     
  
      
@@ -59,12 +64,28 @@ const Backend = () => {
       <h2 className="card-title">MongoDB</h2>
     </div>
 
+    <div  ref={el=>slideRefSql=el} className=" mx-auto w-48 flex flex-col justify-center items-center gap-2 bg-base-100 shadow-lg font-bold  p-5  rounded-lg">
+      <div>
+        <PiFileSql className='text-[#005C85]' size={36} />
+      </div>
+
+      <h2 className="card-title">SQL</h2>
+    </div>
+
     <div  ref={el=>slideRef5=el} className=" mx-auto w-48 flex flex-col justify-center items-center gap-2 bg-base-100 shadow-lg font-bold  p-5  rounded-lg">
       <div>
         <GrMysql className='text-[#005C85]' size={36} />
       </div>
 
       <h2 className="card-title">MySQL</h2>
+    </div>
+
+    <div  ref={el=>slideRefOracle=el} className=" mx-auto w-48 flex flex-col justify-center items-center gap-2 bg-base-100 shadow-lg font-bold  p-5  rounded-lg">
+      <div>
+        <GrOracle className='text-[#005C85]' size={36} />
+      </div>
+
+      <h2 className="card-title">Oracle</h2>
     </div>
 
     <div  ref={el=>slideRef6=el} className=" mx-auto w-48 flex flex-col justify-center items-center gap-2 bg-base-100 shadow-lg font-bold  p-5  rounded-lg">

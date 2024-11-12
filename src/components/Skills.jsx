@@ -12,18 +12,18 @@ const Skills = () => {
      
       <div>
          
-        <h1 className=" text-[lightseagreen] m-3 mt-10 mb-7 text-center font-bold text-2xl xs:text-[0.8rem] ssm:text-[0.8rem] ">
+        <h1 className=" text-[lightseagreen] m-3 mt-10 mb-7 text-center font-bold text-2xl xs:text-[0.75rem] ssm:text-[0.8rem] ">
           Frontend Development Skills
         </h1>
         <Frontend/>
 
-        <h1 className="text-[lightseagreen] m-3  mt-10 mb-7 text-center font-bold text-2xl xs:text-[0.8rem] ssm:text-[0.8rem] ">
+        <h1 className="text-[lightseagreen] m-3  mt-10 mb-7 text-center font-bold text-2xl xs:text-[0.75rem] ssm:text-[0.8rem] ">
           Backend Development Skills
         </h1>
 
         <Backend/>
 
-        <h1 className="text-[lightcoral] m-3  mt-10 mb-7 text-center font-bold text-2xl xs:text-[0.8rem] ssm:text-[0.8rem] ">
+        <h1 className="text-[blue] m-3  mt-10 mb-7 text-center font-bold text-2xl xs:text-[0.8rem] ssm:text-[0.8rem] ">
           Others Skills
         </h1>
 

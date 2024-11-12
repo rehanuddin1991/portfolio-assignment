@@ -3,7 +3,7 @@ import React from "react";
 const WriteUp = () => {
   return (
     <>
-      <h1 className=" text-[lightseagreen] m-3 mt-10 mb-7 text-center font-bold text-2xl xs:text-[0.6rem] ssm:text-[0.8rem] ">
+      <h1 className=" text-[lightseagreen] m-3 mt-10 mb-7 text-center font-bold text-2xl xs:text-[0.68rem] ssm:text-[0.8rem] ">
         আমার লিখা উপন্যাসের চুম্বক অংশ 
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4   justify-center items-center gap-3">

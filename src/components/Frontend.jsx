@@ -108,12 +108,12 @@ const frontend = () => {
       <h2 className="card-title">Bootstrap</h2>
     </div>
 
-    <div ref={el=>slideRef10=el} className=" mx-auto w-48 flex flex-col justify-center items-center gap-2 bg-base-100 shadow-lg font-bold  p-5  rounded-lg">
+    <div title='tailwind library' ref={el=>slideRef10=el} className=" mx-auto w-48 flex flex-col justify-center items-center gap-2 bg-base-100 shadow-lg font-bold  p-5  rounded-lg">
       <div>
         <SiDaisyui size={42} />
       </div>
 
-      <h2 className="card-title">Tailwind(Library)</h2>
+      <h2 className="card-title">Daisy</h2>
     </div>
   </div>
   )
